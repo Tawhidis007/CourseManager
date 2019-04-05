@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    app:cardElevation="6dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#b56969"
+    android:layout_height="150dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <TextView
+            android:typeface="monospace"
+            android:textColor="#eeeeee"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="hello"
+            android:id="@+id/card_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/beauty_desc"
+        style="@style/MyTextViewStyle"
+        android:typeface="monospace"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:text="Data Structure and Algorithm"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.CardView>

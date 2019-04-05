@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:layout_margin="1dp"
+            android:background="@drawable/et_bg"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/black"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:id="@+id/day_et"
+            android:textAlignment="center"
+            android:hint="Enter day"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="1dp"
+            android:background="@drawable/et_bg"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/black"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:id="@+id/month_et"
+            android:textAlignment="center"
+            android:hint="Enter month"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:layout_margin="1dp"
+            android:background="@drawable/et_bg"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/black"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:id="@+id/year_et"
+            android:textAlignment="center"
+            android:hint="Enter year"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="1dp"
+            android:background="@drawable/et_bg"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/black"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:id="@+id/hour_et"
+            android:textAlignment="center"
+            android:hint="Hour of day(24)"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="1dp"
+            android:background="@drawable/et_bg"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/black"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:id="@+id/min_et"
+            android:textAlignment="center"
+            android:hint="Enter minute"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
